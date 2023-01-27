@@ -1,0 +1,79 @@
+/* barra de navegación*/
+.navbar{
+    padding: 2rem;
+    background-color:#dee7f1; 
+}
+
+.navbar-collapse{
+align-items: center;
+justify-content: space-between;
+}
+
+/*Estilos generales*/
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-family: 'Rubik Dirt', cursive;
+}
+/* Seccion Hero */
+.hero{
+    background-color: #dee7f1;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal{
+    padding: 3rem;
+}
+
+.hero-imagen-perfil{
+    width: 30%;
+    margin: 20px;
+}
+
+.hero-principal h2{
+    font-size: 1.5rem;
+    color:#615151; 
+}
+
+.hero-inferior-imagen{
+    width: 90%;
+}
+
+/* sobre mi */
+.seccion-oscura{
+    background-color: #102135;
+    color:#dee7f1
+}
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+
+/*Adaptable responsivo*/
+
+@media screen and (max-widht:767px){
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and(max-widht:700px) {
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+    
+}
