@@ -22,6 +22,36 @@ h1{
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
 }
+
+.seccion-oscura{
+    background-color: #102135;
+    color:#dee7f1
+}
+
+.seccion-clara{
+    background-color: #dee7f1;
+    color: #102135;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-descripcion{
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+
+.texto-negro{
+    color: black;
+}
+
 /* Seccion Hero */
 .hero{
     background-color: #dee7f1;
@@ -44,16 +74,12 @@ h1{
 }
 
 .hero-inferior-imagen{
-    width: 90%;
+    width: 50%;
 }
 
 /* sobre mi */
-.seccion-oscura{
-    background-color: #102135;
-    color:#dee7f1
-}
 .sobre-mi{
-    height: 500px;
+    height: 610px;
     padding: 10px;
 }
 
@@ -62,6 +88,108 @@ h1{
     text-align: center;
 }
 
+/* Experiencia */
+
+.experiencia{
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna{
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover{
+    background-color: #102135;
+    color: #dce8f3;
+}
+
+.experiencia i{
+    font-size: 2.5rem;
+    color:#dce8f3;
+    background-color: #003a79;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge{
+    margin: 5px;
+}
+
+/* Proyectos */
+.proyectos-recientes{
+    padding: 40px;
+}
+
+.proyectos-recientes img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.proyectos-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay{
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .iconos-contenedor {
+    display: flex;
+    align-items: center;
+}
+
+.overlay i {
+    color: black;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.proyecto {
+    position: relative;
+}
+
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
 
 /*Adaptable responsivo*/
 
@@ -73,7 +201,6 @@ h1{
 
 @media screen and(max-widht:700px) {
     .hero-inferior-imagen{
-        max-width: 600px;
+        max-width: 400px;
     }
-    
 }

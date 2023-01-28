@@ -12,6 +12,9 @@
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
+    <!-- iconos de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
     <!--CSS personal-->
     <link href="style.css" rel="stylesheet">
     
@@ -24,7 +27,7 @@
     <title>Tamara Behotas | Desarrollo Web Front-End Jr </title>
 
     <!--Icono-->
-    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <link rel="icon" type="image/x-icon" href="imagenes/icono1.png">
   </head>
   
   <body>
@@ -56,7 +59,7 @@
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
         <img class="hero-imagen-perfil rounded-circle" src="imagenes/perfil.jpg" alt="Foto de Tamara Behotas" >
         <h1>Hola, soy Tamara Behotas</h1>
-        <h2>Soy Licenciada en Ciencias Biológicas además diseño y desarrollo sitios web</h2>
+        <h2>Licenciada en Ciencias Biológicas, además <br> Diseño y Desarrollo sitios web</h2>
       </div>
       <div class="hero-inferior">
         <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor de laptop, logos de HTML, CSS, JavaScript">
@@ -66,12 +69,185 @@
     <section class="sobre-mi seccion-oscura">
       <div class="contenedor">
         <h2 class="seccion-titulo">Sobre mí</h2>
-        <p class="seccion-texto">Conoceme</p>
+        <p class="seccion-texto">En el 2018 me recibí de Licenciada en Ciencias Biológicas.
+          Luego de tomarme un tiempo para estar con mi familia y frente a la dificultad para 
+          insertarme en el ámbito laboral, comencé a capacitarme en el desarrollo de páginas web, 
+          motivada principalmente por mi afición tecnológica y las ganas de aprender algo nuevo que
+          me sea de utilidad a futuro y me de la posibilidad de poder trabajar desde casa
+          en algo que me guste.
+          <br>Busco formarme como programadora Front-End, ampliando conocimientos y consiguiendo
+          experiencia. Soy autodidácta, lo que me permite adquirir nuevas herramientas de forma
+          muy eficaz y constante. Me gusta el trabajo en equipo, soy buena comunicando
+          ideas y resolviendo problemas. Me gustan los desafíos, considero que la mejor
+          forma de aprender es aceptar nuevos retos y compartir los conocimientos adquiridos.
+        </p>
       </div>
+    </section>
 
+    <!--Experiencia-->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p></p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">MySQL</span>
+            </div>
+          </div>
+          <!-- Diseño -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil-square"></i>
+            <p class="experiencia-titulo">Diseño</p>
+            <p></p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-primary">Canva</span>
+              <span class="badge text-bg-primary">Gimp</span>
+              <span class="badge text-bg-primary">InkScape</span>
+              <span class="badge text-bg-primary">Inshot</span>
+              <span class="badge text-bg-primary">Corel</span>
+              <span class="badge text-bg-primary">Adobe</span>
+            </div>
+          </div>
+          <!-- Estudios -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-book"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p></p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-primary">GoogleActive</span>
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Alura</span>
+              <span class="badge text-bg-primary">Oracle</span>
+              <span class="badge text-bg-primary">Udemy</span>
+              <span class="badge text-bg-primary">BAmultiplica</span>
+          </div>
+        </div>
+      </div>
 
     </section>
 
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+      <h3 class="seccion-descripcion">Estos son los proyectos realizados hasta el momento</h3>
+      <!-- galeria de proyectos -->
+      <div class="container text-center proyecto-contenedor">
+        <div class="row">
+          <!-- proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-6">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+           <!-- proyecto 3 -->
+           <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+           <!-- proyecto 4 -->
+           <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> --> 
+           <!-- proyecto 5 -->
+           <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+           <!-- proyecto 6 -->
+     <!--       <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/encriptador.png" alt="imagen de laptop que muestra el encriptador">
+              <div class="overlay">
+                <p>Encriptador</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Tamarabehotas/EncriptadorRTB" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://tamarabehotas.github.io/EncriptadorRTB/" target="_blank" rel="noopener noreferer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+<!-- 
+      <button type="button" class="btn btn-info">Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>  -->
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
